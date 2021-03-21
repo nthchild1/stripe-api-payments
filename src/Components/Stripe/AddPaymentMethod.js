@@ -66,7 +66,10 @@ export default function AddPaymentMethod() {
 
   return (
     <div>
-      <h4> Register a card here! </h4>
+        <div  style={{display:"flex", flexDirection: 'column', alignItems:'flex-start', justifyContent: 'flex-start'}}>
+            <h2> Información de pago </h2>
+            <h5 style={{textAlign: 'left'}}>Ingresa la informacion de tu tarjeta de credito o debito.</h5>
+        </div>
       <form
         onSubmit={handleSubmit}
         style={{
@@ -77,9 +80,9 @@ export default function AddPaymentMethod() {
         }}
       >
         <div style={{ marginBottom: "50px" }}>
-          <CardElement options={CARD_OPTIONS} />
+          <CardElement options={CARD_OPTIONS}/>
         </div>
-        <button type="submit">Add card</button>
+        <div type="submit" style={{backgroundColor: '#45BDFF',color: "#FFF", fontSize: 14,display: "flex", alignItems: 'center', alignContent: "center",justifyContent: "center", height: 50}}>Continuar</div>
       </form>
       {success ? <p> The card was registered! </p> : null}
     </div>

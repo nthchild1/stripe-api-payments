@@ -1,4 +1,6 @@
-.App {
-  font-family: sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+* {
+  font-family: 'Comfortaa', cursive;
   text-align: center;
 }

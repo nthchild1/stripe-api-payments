@@ -1,8 +1,6 @@
 import "./styles.css";
 import StripeWrapperAPM from "./Components/Stripe/StripeWrapperAPM";
 import StripeWrapperPC from "./Components/Stripe/StripeWrapperPC";
-import {useLocation} from "react-router-dom";
-
 
 export default function App() {
 
