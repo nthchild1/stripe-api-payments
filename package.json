@@ -1,0 +1,40 @@
+{
+  "name": "stripe-api-payments",
+  "version": "1.0.0",
+  "description": "Test the stripe api and the cloud function as rest api.",
+  "keywords": [
+    "react",
+    "stripe",
+    "rest",
+    "cloud functions"
+  ],
+  "main": "src/index.js",
+  "dependencies": {
+    "@babel/runtime": "7.13.8",
+    "@stripe/react-stripe-js": "1.4.0",
+    "@stripe/stripe-js": "1.13.1",
+    "axios": "0.21.1",
+    "firebase": "8.3.0",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-router-dom": "5.2.0",
+    "react-scripts": "4.0.0",
+    "react-stripe-checkout": "2.6.3",
+    "react-use-localstorage": "3.5.3"
+  },
+  "devDependencies": {
+    "typescript": "4.1.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
