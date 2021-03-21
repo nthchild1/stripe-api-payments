@@ -1,14 +1,19 @@
 export const CARD_OPTIONS = {
  style: {
    base: {
+    padding: "20px",
      color: "#303238",
-     fontSize: "16px",
+     fontSize: "14px",
      fontFamily: 'Comfortaa',
      fontSmoothing: "antialiased",
-     backgroundColor: '#45BDFF',
+     paddingBottom: "10px",
+     backgroundColor: "#EFF5FB",
      "::placeholder": {
-       color: "white",
-     }
+       color: "#0F1852",
+     },
+     "::disabled": {
+       height: "80px",
+     },
    },
    invalid: {
    }

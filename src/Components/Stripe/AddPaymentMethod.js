@@ -67,8 +67,8 @@ export default function AddPaymentMethod() {
   return (
     <div>
         <div  style={{display:"flex", flexDirection: 'column', alignItems:'flex-start', justifyContent: 'flex-start'}}>
-            <h2> Información de pago </h2>
-            <h5 style={{textAlign: 'left'}}>Ingresa la informacion de tu tarjeta de credito o debito.</h5>
+            <h2 style={{marginLeft: "15px"}}>Información de pagos</h2>
+            <h5 style={{marginLeft: "20px", textAlign: 'left'}}>Ingresa la informacion de tu tarjeta de credito o debito.</h5>
         </div>
       <form
         onSubmit={handleSubmit}
@@ -76,11 +76,11 @@ export default function AddPaymentMethod() {
           display: "flex",
           flexDirection: "column",
           justifyContent: "center",
-          padding: "30px"
+          padding: "20px"
         }}
       >
-        <div style={{ marginBottom: "50px" }}>
-          <CardElement options={CARD_OPTIONS}/>
+        <div style={{ backgroundColor: "#EFF5FB", padding: "20px 10px", marginBottom: "20px" }}>
+          <CardElement options={CARD_OPTIONS} />
         </div>
         <div type="submit" style={{backgroundColor: '#45BDFF',color: "#FFF", fontSize: 14,display: "flex", alignItems: 'center', alignContent: "center",justifyContent: "center", height: 50}}>Continuar</div>
       </form>
