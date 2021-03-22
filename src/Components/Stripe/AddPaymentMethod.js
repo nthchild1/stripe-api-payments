@@ -91,7 +91,10 @@ export default function AddPaymentMethod() {
                 }}
             >
                 <div style={{ backgroundColor: "#EFF5FB", padding: "20px 10px", marginBottom: "20px" }}>
-                    <CardElement options={CARD_OPTIONS} />
+                    <CardElement
+                        options={CARD_OPTIONS}
+                        fonts={[{ cssSrc: "https://fonts.googleapis.com/css2?family=Comfortaa" }]}
+                    />
                 </div>
                 <button
                     type="submit"
